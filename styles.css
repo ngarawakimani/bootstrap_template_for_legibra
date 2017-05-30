@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    background:#00695C;
+}
+nav{
+    border:0px;
+    height: 100px;
+}
+nav > div{
+    height: 100px;
+    padding-top: 30px;
+    background: #00695C;
+    border:0px;
+    color: white;
+}
+.navbar-default .navbar-header a{
+    color: #FFF;
+    font-size: 35px;
+}
+.navbar-default .navbar-header a:hover{
+    color:#000;
+}
+.navbar-default .nav > li > a{
+    color:#fff;
+    font-size: 18px;
+}
+.navbar-default .nav > li > a:hover{
+    color:black;
+}
+.navbar-link{
+    color: #fff;
+}
+#header{
+    height: 600px;
+    background:#00695C;
+    padding: 0px;
+    margin: 0px;
+    color:#fff;
+    text-align: center;
+
+}
+#main-icon{
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+#header h2{
+    font-size:50px;
+}
+.header-service{
+    padding-top: 50px;
+}
+.header-service i{
+    font-size: 100px;
+}
+.our_diffrence p{
+    color: #686868;
+}
+.our_diffrence{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.our_diffrence i{
+    font-size: 80px;
+    color: #5d3cb2;
+}
+.our_diffrence hr{
+    width: 200px;
+    background: #00695C;
+}
+.knowlegde{
+    padding: 150px 10px 238px 10px;
+}
+
+.knowlegde, .passion{
+    font-size: 16px;
+    background: #f6f6f6;
+}
+.side div{
+    height: auto;
+    padding:10px;
+    font-size: 16px;
+    height: 276px;
+}
+
+.passion{
+    height: 276px;
+    padding:50px 10px 0px 10px;
+}
+.numbers{
+    background: #00695C;
+    padding: 100px 0px 100px 0px;
+    color: #fff;
+}
+.numbers i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.numbers h1{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.numbers p{
+    font-size:18px
+}
+#slider h2{
+    margin:100px 0px 30px 0px;
+}
+#slider p{
+    font-size: 18px;
+}
+#slider hr{
+    width: 200px;
+    background: #00695C;
+}
+#slider i{
+   font-size: 200px;
+}
+.item{
+    padding:50px 0px 50px 0px;
+}
+.carousel .item{
+    background: white;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image:none;
+}
+.carousel-control{
+    color:black;
+}
+.thumbnail{
+    border:0px;
+}
+.caption > p{
+    font-size: 30px;
+}
+.contact{
+    padding: 150px 0px 150px 0px;
+    background: black;
+    color:#fff;
+}
+.contact p{
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+.contact .contactbtn{
+    background: transparent;
+    color:#fff;
+    height:70px;
+    width: 250px;
+}
+.contact .contactbtn:hover{
+    background: white;
+    color:black;
+}
+.modal-header {
+    background: #004D40;
+}
+.modal-header button span{
+    color: #fff;
+}
+#success_message{
+    display: none;
+}
+.input-group i{
+    color: #00695C;
+}
+.input-group{
+    border-radius: 0px;
+}
+.input-group input{
+    height: 50px;
+}
+.modalbtn{
+    height: 50px;
+    background: #004D40;
+    border-radius: 0px;
+}
+.modalbtn:hover{
+    color: #fff;
+    background: #00695C;
+}
+.footer{
+    padding: 50px 0px 50px 0px;
+    background: #212121;
+}
+.footer p{
+    font-size: 18px;
+    color:#fff;
+}
+.footer i{
+    font-size: 20px;
+    padding: 10px;
+}
+.footer .social i{
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    width: 50px;
+    height:50px;
+    padding-top: 15px;
+    margin-right:10px;
+    background: #fff;
+}
+.footer .social i:hover{
+    color:#fff;
+    background: #424242;
+}
+@media (max-width: 768px) {
+    #header {
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .collapse {
+        display: none !important;
+    }
+    #header {
+        height: auto;
+    }
+    .header-service > div{
+        margin-bottom: 80px;
+    }
+    .numbers > div > div{
+        margin-bottom: 80px;
+    }
+    .social{
+        margin-top: 70px;
+    }
+
+    .navbar{
+        background:#004D40;
+    }
+    nav > div{
+        background: #004D40;
+    }
+
+    .side div{
+        height: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .knowlegde{
+        text-align: center;
+        margin: 15px;
+    }
+    .passion{
+        text-align:center;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #header {
+        height: auto;
+    }
+}
+
